@@ -116,9 +116,6 @@ class HAServiceProsTableViewController: UITableViewController, UISearchBarDelega
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        if willCrash {
-            dontDoIt()
-        }
         if segue.identifier == "DetailSegue" {
             let indexPath = tableView.indexPathForSelectedRow!
             let pro : HAServicePro
