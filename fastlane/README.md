@@ -20,7 +20,7 @@ or alternatively using `brew cask install fastlane`
 ```
 fastlane ios generate_ipa_develop
 ```
-Description of what the lane does
+Testing out a ci/cd pipeline for iOS
 
 ----
 

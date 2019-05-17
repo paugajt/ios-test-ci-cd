@@ -44,28 +44,10 @@ class HAServiceProsTableViewController: UITableViewController, UISearchBarDelega
         servicePros.sort(by: ({ $0.companyName! < $1.companyName! }))
     }
     
-//    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-//        return specialties[section]
-//    }
-    
     override func numberOfSections(in tableView: UITableView) -> Int {
         
         return 1
-        //return getNumberOfSections()
-        
     }
-    
-//    func getNumberOfSections() -> Int {
-//
-//        for pro in servicePros {
-//            if let specialty = pro.specialty {
-//                if !specialties.contains(specialty) {
-//                    specialties.append(specialty)
-//                }
-//            }
-//        }
-//        return specialties.count
-//    }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
