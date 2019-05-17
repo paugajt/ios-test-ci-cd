@@ -90,7 +90,6 @@ class HAServiceProsTableViewController: UITableViewController, UISearchBarDelega
         } else {
             pro = servicePros[indexPath.row]
         }
-        soSomethingCool()
         cell.textLabel?.text = pro.companyName
         guard let ratings = Int(pro.ratingCount!),  let compositeRating = Double(pro.compositeRating!) else { return cell}
         
