@@ -17,7 +17,7 @@ default_platform(:ios)
 platform :ios do
   desc "Testing out a ci/cd pipeline for iOS"
   lane :generate_ipa_develop do
-    build_ios_app(
+    build_app(
       configuration: "Debug",
       scheme: "HAInterview",
       clean: true,
