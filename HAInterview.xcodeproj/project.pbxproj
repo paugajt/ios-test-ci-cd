@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F5DA963121D3F0ED00C82F37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DA963021D3F0ED00C82F37 /* AppDelegate.swift */; };
-		F5DA963321D3F0ED00C82F37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DA963221D3F0ED00C82F37 /* ViewController.swift */; };
-		F5DA963621D3F0ED00C82F37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DA963421D3F0ED00C82F37 /* Main.storyboard */; };
 		F5DA963821D3F0EF00C82F37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DA963721D3F0EF00C82F37 /* Assets.xcassets */; };
 		F5DA963B21D3F0EF00C82F37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DA963921D3F0EF00C82F37 /* LaunchScreen.storyboard */; };
 		F5DA964621D3F0EF00C82F37 /* HAInterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DA964521D3F0EF00C82F37 /* HAInterviewTests.swift */; };
 		F5DA965121D3F0EF00C82F37 /* HAInterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DA965021D3F0EF00C82F37 /* HAInterviewUITests.swift */; };
+		F5DA966321D3F1E100C82F37 /* InterviewPros.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DA965E21D3F1E100C82F37 /* InterviewPros.storyboard */; };
+		F5DA966921D3F2E500C82F37 /* pro_data.json in Resources */ = {isa = PBXBuildFile; fileRef = F5DA966821D3F2E500C82F37 /* pro_data.json */; };
+		F5DA966B21D3F79E00C82F37 /* HAServicePro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DA966A21D3F79E00C82F37 /* HAServicePro.swift */; };
+		F5DA966F21D4226600C82F37 /* HAServiceProsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DA966E21D4226600C82F37 /* HAServiceProsTableViewController.swift */; };
+		F5DA967521D443D000C82F37 /* HAServiceProDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DA967421D443D000C82F37 /* HAServiceProDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +39,6 @@
 /* Begin PBXFileReference section */
 		F5DA962D21D3F0ED00C82F37 /* HAInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HAInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DA963021D3F0ED00C82F37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F5DA963221D3F0ED00C82F37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F5DA963521D3F0ED00C82F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5DA963721D3F0EF00C82F37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5DA963A21D3F0EF00C82F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5DA963C21D3F0EF00C82F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +48,11 @@
 		F5DA964C21D3F0EF00C82F37 /* HAInterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HAInterviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DA965021D3F0EF00C82F37 /* HAInterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAInterviewUITests.swift; sourceTree = "<group>"; };
 		F5DA965221D3F0EF00C82F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5DA965E21D3F1E100C82F37 /* InterviewPros.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InterviewPros.storyboard; sourceTree = "<group>"; };
+		F5DA966821D3F2E500C82F37 /* pro_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pro_data.json; path = ../../../../Downloads/CodingExercise/pro_data.json; sourceTree = "<group>"; };
+		F5DA966A21D3F79E00C82F37 /* HAServicePro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAServicePro.swift; sourceTree = "<group>"; };
+		F5DA966E21D4226600C82F37 /* HAServiceProsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAServiceProsTableViewController.swift; sourceTree = "<group>"; };
+		F5DA967421D443D000C82F37 /* HAServiceProDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAServiceProDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		F5DA962F21D3F0ED00C82F37 /* HAInterview */ = {
 			isa = PBXGroup;
 			children = (
+				F5DA966821D3F2E500C82F37 /* pro_data.json */,
 				F5DA963021D3F0ED00C82F37 /* AppDelegate.swift */,
-				F5DA963221D3F0ED00C82F37 /* ViewController.swift */,
-				F5DA963421D3F0ED00C82F37 /* Main.storyboard */,
 				F5DA963721D3F0EF00C82F37 /* Assets.xcassets */,
 				F5DA963921D3F0EF00C82F37 /* LaunchScreen.storyboard */,
 				F5DA963C21D3F0EF00C82F37 /* Info.plist */,
+				F5DA965E21D3F1E100C82F37 /* InterviewPros.storyboard */,
+				F5DA966A21D3F79E00C82F37 /* HAServicePro.swift */,
+				F5DA966E21D4226600C82F37 /* HAServiceProsTableViewController.swift */,
+				F5DA967421D443D000C82F37 /* HAServiceProDetailViewController.swift */,
 			);
 			path = HAInterview;
 			sourceTree = "<group>";
@@ -230,8 +239,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5DA963B21D3F0EF00C82F37 /* LaunchScreen.storyboard in Resources */,
+				F5DA966321D3F1E100C82F37 /* InterviewPros.storyboard in Resources */,
 				F5DA963821D3F0EF00C82F37 /* Assets.xcassets in Resources */,
-				F5DA963621D3F0ED00C82F37 /* Main.storyboard in Resources */,
+				F5DA966921D3F2E500C82F37 /* pro_data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5DA963321D3F0ED00C82F37 /* ViewController.swift in Sources */,
+				F5DA966B21D3F79E00C82F37 /* HAServicePro.swift in Sources */,
+				F5DA966F21D4226600C82F37 /* HAServiceProsTableViewController.swift in Sources */,
+				F5DA967521D443D000C82F37 /* HAServiceProDetailViewController.swift in Sources */,
 				F5DA963121D3F0ED00C82F37 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +305,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F5DA963421D3F0ED00C82F37 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5DA963521D3F0ED00C82F37 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F5DA963921D3F0EF00C82F37 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
